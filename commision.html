@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commision Page</title>
+    <link rel="stylesheet" href="commision.css" />
+
+</head>
+<body>
+<section class="section">
+    <h2 class="section-title">Join Our Community</h2>
+    <div class="form-section">
+     <div class="form-card">
+
+
+
+      <h3 class="form-title">🎨 Become an Artist</h3>
+      <form >
+       <div class="form-group"><label for="artist-name">Artist Name</label> 
+        <input type="text" id="artist-name" placeholder="Your professional name" required>
+       </div>
+       <div class="form-group"><label for="artist-type">Art Specialty</label> 
+        <select id="artist-type" required>
+          <option value="">Choose your medium</option>
+          <option value="painting">Painting</option>
+          <option value="photography">Photography</option>
+          <option value="digital">Digital Art</option> 
+          <option value="illustration">Illustration</option> 
+          <option value="mixed-media">Mixed Media</option>
+          <option value="other">Other</option> </select>
+       </div>
+       <div class="form-group"><label for="artist-email">Email Address</label> 
+        <input type="email" id="artist-email" placeholder="your@email.com" required>
+       </div>
+       <div class="form-group"><label for="artist-bio">Artist Statement</label> 
+        <textarea id="artist-bio" placeholder="Tell us about your artistic journey..." required></textarea>
+       </div><button type="submit" class="btn">Join as Artist</button>
+      </form>
+     </div>
+     <div class="form-card">
+
+
+
+
+      <h3 class="form-title">🖼️ Submit Artwork</h3>
+
+      <form >
+       <div class="form-group"><label for="artwork-artist">Your Artist Name</label> 
+        <input type="text" id="artwork-artist" placeholder="Must match your profile" required>
+       </div>
+
+       <div class="form-group"><label for="artwork-title">Artwork Title</label> 
+        <input type="text" id="artwork-title" placeholder="Name of your piece" required>
+       </div>
+       <div class="form-group"><label for="artwork-medium">Medium &amp; Materials</label> 
+        <input type="text" id="artwork-medium" placeholder="e.g., Oil on Canvas" required>
+       </div>
+       <div class="form-group"><label for="artwork-year">Year Created</label>
+        <input type="number" id="artwork-year" placeholder="2024" required>
+       </div>
+       <div class="form-group"><label for="artwork-description">Description</label> 
+        <textarea id="artwork-description" placeholder="Describe your artwork..."></textarea>
+       </div><button type="submit" class="btn">Submit Artwork</button>
+      </form>
+     </div>
+    </div>
+   </section><!-- Commission Work -->
+   <section class="section">
+    <h2 class="section-title">Commission Custom Artwork</h2>
+    <div class="form-section">
+     <div class="form-card">
+
+
+      <h3 class="form-title">💼 Request Commission</h3>
+      <form>
+       <div class="form-group"><label for="client-name">Your Name</label> <input type="text" id="client-name" placeholder="Full name" required>
+       </div>
+       <div class="form-group"><label for="client-email">Email Address</label> 
+        <input type="email" id="client-email" placeholder="your@email.com" required>
+       </div>
+       <div class="form-group"><label for="preferred-artist">Preferred Artist</label> 
+        <input type="text" id="preferred-artist" placeholder="Artist name or 'Any'">
+       </div>
+       <div class="form-group"><label for="project-type">Project Type</label>
+         <select id="project-type" required> <option value="">Select commission type</option> 
+        <option value="portrait">Portrait</option>
+         <option value="landscape">Landscape</option>
+          <option value="abstract">Abstract Piece</option> 
+          <option value="other">Other</option> </select>
+       </div>
+       <div class="form-group"><label for="budget-range">Budget Range</label>
+         <select id="budget-range"> 
+          <option value="">Select your budget</option>
+          <option value="under-500">Under 500</option>
+          <option value="500-1500"> ₹500 -  ₹1500</option>
+          <option value="1500-3000"> ₹1500 -  ₹3000</option>
+          <option value="3000-5000"> ₹3000 -  ₹5000</option>
+          <option value="over-5000">Over  ₹5000</option> </select>
+       </div>
+
+
+
+       <div class="form-group"><label for="project-details">Project Details</label> 
+        <textarea id="project-details" placeholder="Describe your vision..." required></textarea>
+       </div><button type="submit" class="btn btn-red">Submit Request</button>
+      </form>
+     </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <img src="assets/logo.png" alt="Mansi Bartaria" class="logo-img" />
+          <nav class="footer-nav">
+            <a href="#">Art</a>
+            <a href="#">Artists</a>
+            <a href="#">Inspired</a>
+            <a href="#">Logo mark</a>
+            <a href="#">Privacy Policy</a>
+          </nav>
+          <br>
+          <div class="social-icons">
+            <a href="#" class="social-icon">f</a>
+            <a href="#" class="social-icon">▶</a>
+            <a href="#" class="social-icon">𝕏</a>
+            <a href="#" class="social-icon">📷</a>
+          </div>
+        </div>
+        <p class="footer-copyright">
+          © 2024 Artist Home Design. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+     </body>
+</html>
